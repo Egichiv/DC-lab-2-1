@@ -44,13 +44,7 @@ int main() {
     int32_t a1;
     int32_t a2;
 
-    cin >> elements_number;
-
-    if (elements_number <= 1) {
-        exit(1);
-    }
-
-    cin >> position >> A >> B >> C >> a1 >> a2;
+    cin >> elements_number >> position >> A >> B >> C >> a1 >> a2;
 
     array = (int32_t*) calloc(elements_number, sizeof(int32_t));
 
